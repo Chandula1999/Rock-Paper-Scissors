@@ -2,7 +2,7 @@ function getComputerChoise(){
     let arr = [
         "rock",
         "paper",
-        "scissors"
+        "scissor"
     ];
     // get random index value
     const randomIndex = Math.floor(Math.random() * arr.length);
