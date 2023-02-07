@@ -34,3 +34,6 @@ function game(){
     return (playRound(playerSelection,Computerselection));
 }
 
+for (let i = 0; i < 5; i++) {
+    console.log(game());
+}
