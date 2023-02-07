@@ -13,5 +13,14 @@ function getComputerChoise(){
 }
 console.log(getComputerChoise());
 
-
-
+function playRound(playerSelection,Computerselection){
+    if((playerSelection=="rock"&&Computerselection=="scissor")||(playerSelection=="scissor"&&Computerselection=="paper")||(playerSelection=="paper"&&Computerselection=="rock")){
+        return "You Win!";
+    }
+    else if((playerSelection=="scissor"&&Computerselection=="rock")||(playerSelection=="spaper"&&Computerselection=="scissor")||(playerSelection=="rock"&&Computerselection=="paper")){
+        return "You Lose!";
+    }
+    else{
+        return "Try Again";
+    }
+}
